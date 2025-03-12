@@ -11,7 +11,7 @@ describe('home page', () => {
     })
     it('the features on the home page are correct',()=>{
       cy.get("dt").eq(0).contains("4 Courses")
-      // cy.get("dt").eq(2)
+      cy.get("dt").eq(2)
     })
   })
 
